@@ -10,7 +10,6 @@ defineProps({
   }
 })
 
-import imageUrl from '@/assets/images/profil_placeholder.svg' // => or relative path
 
 </script>
 
