@@ -9,7 +9,7 @@
           <div class="flex items-center">
             <div class="flex-shrink-0">
 
-              <img class="h-8 w-8" src="/images/Logo_de_Top-Chef-Icone.png" alt="Logo de TopChef" />
+              <img class="h-8 w-8" src="images/Logo_de_Top-Chef-Icone.png" alt="Logo de TopChef" />
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-4">
@@ -82,7 +82,7 @@
 
     <header class="bg-white shadow">
       <div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900">TopChef 2023 DashBoard</h1>
+        <ShowSwitcher />
       </div>
     </header>
     <main>
@@ -103,6 +103,8 @@
 
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+const counter = useState('show_counter', () => 1)
+const year = useState('year', () => 2023)
 
 const user = {
   name: 'Tom Cook',
