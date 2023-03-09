@@ -14,18 +14,33 @@ export function ref_topchef() {
     const getBrigadesStatusByYearAndByShow = (year: Year, show: number) => {
         return allRef[year].shows[show].data;
     };
-    const getBrigadesLatestStatus = () => {
-        return allRef[latestYear].shows.slice(-1)[0].data;
+    const getBrigadesLatestStatus = (year: Year) => {
+        return allRef[year].shows[countShowsForYear(year)].data;
     };
     
     const countShowsForYear = (year: Year) => {
         return Object.keys(allRef[year].shows).length
     }
+    const getLatestShowDate = (year: Year) => {
+        return allRef[year].shows[countShowsForYear(year)].date;
+    }
 
+    const getChefs = (year: Year) => {
+        const brigades = allRef[year].shows[2].data;
+        const chefs = brigades.reduce(
+          (accumulator, currentValue) => {
+              return accumulator.concat(currentValue.chefs)
+          },
+          [] 
+        );
+        return chefs;
+    }
 
     return {
         getBrigadesStatusByYearAndByShow,
         getBrigadesLatestStatus,
-        countShowsForYear
+        countShowsForYear,
+        getLatestShowDate,
+        getChefs,
     };
 }
