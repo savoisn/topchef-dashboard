@@ -15,7 +15,7 @@ const nb_shows = ref_topchef().countShowsForYear(2023)
         <button type="button" class="font-mono" :disabled="counter <= 1" @click="counter--">
             <ChevronLeftIcon class="block h-6 w-6" />
         </button>
-        TopChef {{year}} DashBoard {{counter}}
+        TopChef {{year}} Statut après l'emission {{counter}}
         <button class="font-mono" :disabled="counter >= nb_shows" @click="counter++">
             <ChevronRightIcon class="block h-6 w-6"  />
         </button>

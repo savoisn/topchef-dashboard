@@ -13,7 +13,6 @@ export const data : Show =
             chefs: [
                 { name: 'Carla Ferrari', img: 'carla-ferrari-portrait.webp' ,
                     dishes:[
-                        { name: 'Pomme de Mer 2 ', img: 'images/dishes/2023/1/carla.png'},
                     ]},
                 { name: 'Hugo Riboulet', img: 'hugo-riboulet-portrait.webp', dishes:[] },
                 { name: 'Sarika Sor', img: 'sarika-sor-portrait.webp', dishes:[]  },
