@@ -9,6 +9,7 @@
     "gh-pages-deploy": "gh-pages --dotfiles --dist dist"
   },
   "devDependencies": {
+    "@nuxtjs/plausible": "^0.2.0",
     "autoprefixer": "^10.4.13",
     "gh-pages": "^5.0.0",
     "nuxt": "3.2.3",
