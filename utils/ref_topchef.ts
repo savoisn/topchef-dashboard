@@ -14,13 +14,13 @@ export type Brigade = {
 export type Chef = {
     name: String,
     img: String,
-    dishes?: Dishes[],
+    dishes: Dishes[],
 }
 
 export type Dishes = {
     name: String,
     img: String,
-    chef: Chef
+    chef?: Chef
 }
 
 export type Show = {
@@ -35,7 +35,7 @@ export type Shows = {
 
 export type Ref = Shows[]
 
-export function ref_topchef(): Shows {
+export function ref_topchef() : Object {
 
     const allRef: Ref = [
         shows2023(),
@@ -94,7 +94,7 @@ export function ref_topchef(): Shows {
                 .find((shows: Shows) => { return shows.year == year })
                 .shows
 
-        const chefs : Chef[] = shows.reduce((shows_acc : Chef[], show: Show) => {
+        const chefs: Chef[] = shows.reduce((shows_acc: Chef[], show: Show) => {
 
             const chef_for_show = show.data.reduce(
                 (accumulator, brigade) => {
@@ -106,14 +106,14 @@ export function ref_topchef(): Shows {
 
         }, [])
 
-        
-        const ret_dishes = chefs.reduce((acc_Dishes : Dishes[], chef: Chef) => {
+
+        const ret_dishes = chefs.reduce((acc_Dishes: Dishes[], chef: Chef) => {
             const dishes_for_chef = chef.dishes.map(dish => {
-                const ret_dish = {...dish, chef: {name: chef.name, img: chef.img}} 
+                const ret_dish = { ...dish, chef: { name: chef.name, img: chef.img } }
                 return ret_dish
             });
 
-            if(!dishes_for_chef){
+            if (!dishes_for_chef) {
                 console.log(chef)
                 return acc_Dishes
             }
