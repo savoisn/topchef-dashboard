@@ -20,7 +20,7 @@ export type Chef = {
 export type Dishes = {
     name: String,
     img: String,
-    chef?: Chef
+    chef?: Chef[]
 }
 
 export type Show = {
@@ -35,7 +35,7 @@ export type Shows = {
 
 export type Ref = Shows[]
 
-export function ref_topchef() : Object {
+export function ref_topchef(): Object {
 
     const allRef: Ref = [
         shows2023(),
@@ -109,7 +109,7 @@ export function ref_topchef() : Object {
 
         const ret_dishes = chefs.reduce((acc_Dishes: Dishes[], chef: Chef) => {
             const dishes_for_chef = chef.dishes.map(dish => {
-                const ret_dish = { ...dish, chef: { name: chef.name, img: chef.img } }
+                const ret_dish = { ...dish, chef: [{ name: chef.name, img: chef.img }] }
                 return ret_dish
             });
 
@@ -121,7 +121,22 @@ export function ref_topchef() : Object {
             return acc_Dishes.concat(dishes_for_chef)
         }, [] as Dishes[])
 
-        return ret_dishes;
+        const ret_dishes_grouped = ret_dishes.reduce((acc_Dishes: Dishes[], dish: Dishes) => {
+            const ret_dish = {...dish}
+
+            const found_dish = acc_Dishes.find((d: Dishes) =>{
+                return d.name===dish.name
+            })
+
+            if(found_dish){
+                found_dish.chef = found_dish.chef?.concat(dish.chef)
+                return acc_Dishes
+            }
+
+            return [...acc_Dishes, ret_dish]
+        }, [] as Dishes[])
+        
+        return ret_dishes_grouped;
     }
 
     return {
