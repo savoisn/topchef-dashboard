@@ -17,13 +17,13 @@ export const data: Show =
                 },
                 {
                     name: 'Hugo Riboulet', img: 'hugo-riboulet-portrait.webp', dishes: [
-                        { name: 'Tu Tires ou Tu Pointes?', img: 'images/dishes/2023/2/hugo.png' },
+                        { name: 'Tu Tires ou Tu Pointes?', img: 'images/dishes/2023/2/hugo.png', heart: false },
                     ]
                 },
                 { name: 'Sarika Sor', img: 'sarika-sor-portrait.webp', dishes: [] },
                 {
                     name: 'Albane Aubray', img: 'albane-aubray-portrait.webp', dishes: [
-                        { name: 'Une Lumière de Moules-Frites', img: 'images/dishes/2023/2/albane.png' },
+                        { name: 'Une Lumière de Moules-Frites', img: 'images/dishes/2023/2/albane.png', heart: false },
                     ]
                 },
             ]
@@ -37,14 +37,14 @@ export const data: Show =
                 { name: 'Jérémie Falissard', img: 'jeremie-falissard-portrait.webp', dishes: [] },
                 {
                     name: 'Mathieu Lagarde', img: 'mathieu-lagarde-portrait.webp', dishes: [
-                        { name: 'Puzzle à la seconde', img: 'images/dishes/2023/2/matthieu-1.png' },
-                        { name: 'Transparence Naturelle', img: 'images/dishes/2023/2/matthieu-2.png' },
+                        { name: 'Puzzle à la seconde', img: 'images/dishes/2023/2/matthieu-1.png', heart: false },
+                        { name: 'Transparence Naturelle', img: 'images/dishes/2023/2/matthieu-2.png', heart: false },
                     ]
                 },
                 {
                     name: 'César Lewandowski', img: 'cesar-lewandowski-portrait.webp', dishes: [
-                        { name: 'Molenbrique', img: 'images/dishes/2023/2/cesar-1.png' },
-                        { name: 'Le Plat Transparent de César', img: 'images/dishes/2023/2/cesar-2.png' },
+                        { name: 'Molenbrique', img: 'images/dishes/2023/2/cesar-1.png', heart: false },
+                        { name: 'Le Plat Transparent de César', img: 'images/dishes/2023/2/cesar-2.png', heart: true },
                     ]
                 },
                 { name: 'Alexandre Marchon', img: 'alexandre-marchon-portrait.webp', dishes: [] },
@@ -59,13 +59,13 @@ export const data: Show =
                 { name: 'Victor Blanchet', img: 'victor-blanchet-portrait.webp', dishes: [] },
                 {
                     name: 'Jean Covillault', img: 'jean-covillault-portrait.webp', dishes: [
-                        { name: 'Fin de Repas Dans Une Tasse en Grès', img: 'images/dishes/2023/2/jean.png' },
+                        { name: 'Fin de Repas Dans Une Tasse en Grès', img: 'images/dishes/2023/2/jean.png', heart: false },
                     ]
                 },
                 {
                     name: 'Jacques Lagarde', img: 'jacques-lagarde-portrait.webp', dishes: [
-                        { name: 'Noel à l\'Etranger', img: 'images/dishes/2023/2/jacques-1.png' },
-                        { name: 'La Pureté de la mer', img: 'images/dishes/2023/2/jacques-2.png' },
+                        { name: 'Noel à l\'Etranger', img: 'images/dishes/2023/2/jacques-1.png', heart: false },
+                        { name: 'La Pureté de la mer', img: 'images/dishes/2023/2/jacques-2.png', heart: false },
 
                     ]
                 },
@@ -81,9 +81,9 @@ export const data: Show =
             chefs: [
                 {
                     name: 'Danny Khezzar', img: 'danny-khezzar-portrait.webp', dishes: [
-                        { name: 'La Clé à Molette de mon Père', img: 'images/dishes/2023/2/danny-1.png' },
-                        { name: 'Tzatziki 2.0', img: 'images/dishes/2023/2/danny-2.png' },
-                        { name: 'Raviole Champignon-Betterave et Son Sabayon', img: 'images/dishes/2023/2/danny-3.png' },
+                        { name: 'La Clé à Molette de mon Père', img: 'images/dishes/2023/2/danny-1.png', heart: false },
+                        { name: 'Tzatziki 2.0', img: 'images/dishes/2023/2/danny-2.png', heart: false },
+                        { name: 'Raviole Champignon-Betterave et Son Sabayon', img: 'images/dishes/2023/2/danny-3.png', heart: false },
                     ]
                 },
             ]
@@ -106,7 +106,7 @@ export const data: Show =
                 { name: 'Bérangère Fagart', img: 'berangere-fagart-portrait.webp', dishes: [] },
                 {
                     name: 'Miguel Garcia-Herrera', img: 'miguel-garcia-herrera-portrait.webp', dishes: [
-                        { name: 'Caille, Purée de Céleri, Sauce XO', img: 'images/dishes/2023/2/miguel.png' },
+                        { name: 'Caille, Purée de Céleri, Sauce XO', img: 'images/dishes/2023/2/miguel.png', heart: false },
                     ]
                 },
             ]

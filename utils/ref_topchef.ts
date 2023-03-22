@@ -20,7 +20,10 @@ export type Chef = {
 export type Dishes = {
     name: String,
     img: String,
-    chef?: Chef[]
+    chef?: Chef[],
+    show?: number,
+    year?: number, 
+    heart: boolean
 }
 
 export type Show = {

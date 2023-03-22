@@ -15,8 +15,8 @@ export const data: Show =
                 {
                     name: 'Carla Ferrari', img: 'carla-ferrari-portrait.webp',
                     dishes: [
-                        { name: 'La Pasta Bare', img: 'images/dishes/2023/3/carla-sarika.png' },
-                        { name: 'Mexi-Kebab', img: 'images/dishes/2023/3/carla.png' },
+                        { name: 'La Pasta Bare', img: 'images/dishes/2023/3/carla-sarika.png', heart: false },
+                        { name: 'Mexi-Kebab', img: 'images/dishes/2023/3/carla.png', heart: false },
                     ]
                 },
                 {
@@ -24,8 +24,8 @@ export const data: Show =
                 },
                 {
                     name: 'Sarika Sor', img: 'sarika-sor-portrait.webp', dishes: [
-                        { name: 'La Pasta Bare', img: 'images/dishes/2023/3/carla-sarika.png' },
-                        { name: 'Kebao Souffle', img: 'images/dishes/2023/3/sarika.png' },
+                        { name: 'La Pasta Bare', img: 'images/dishes/2023/3/carla-sarika.png', heart: false },
+                        { name: 'Kebao Souffle', img: 'images/dishes/2023/3/sarika.png', heart: false },
                     ]
                 },
                 {
@@ -41,8 +41,8 @@ export const data: Show =
             chefs: [
                 {
                     name: 'Jérémie Falissard', img: 'jeremie-falissard-portrait.webp', dishes: [
-                        { name: 'Le Bourgui\'Street', img: 'images/dishes/2023/3/alexandre-jeremie.png' },
-                        { name: 'Maquereau Chrome', img: 'images/dishes/2023/3/jeremie.png' },
+                        { name: 'Le Bourgui\'Street', img: 'images/dishes/2023/3/alexandre-jeremie.png', heart: false },
+                        { name: 'Maquereau Chrome', img: 'images/dishes/2023/3/jeremie.png', heart: true },
                     ]
                 },
                 {
@@ -53,8 +53,8 @@ export const data: Show =
                 },
                 {
                     name: 'Alexandre Marchon', img: 'alexandre-marchon-portrait.webp', dishes: [
-                        { name: 'Le Bourgui\'Street', img: 'images/dishes/2023/3/alexandre-jeremie.png' },
-                        { name: 'Kebab sur Nappe', img: 'images/dishes/2023/3/alexandre.png' },
+                        { name: 'Le Bourgui\'Street', img: 'images/dishes/2023/3/alexandre-jeremie.png', heart: false },
+                        { name: 'Kebab sur Nappe', img: 'images/dishes/2023/3/alexandre.png', heart: false },
                     ]
                 },
             ]
@@ -67,7 +67,7 @@ export const data: Show =
             chefs: [
                 {
                     name: 'Victor Blanchet', img: 'victor-blanchet-portrait.webp', dishes: [
-                        { name: 'César en Voyage', img: 'images/dishes/2023/3/leo-victor.png' },
+                        { name: 'César en Voyage', img: 'images/dishes/2023/3/leo-victor.png', heart: false },
 
                     ]
                 },
@@ -79,7 +79,7 @@ export const data: Show =
                 },
                 {
                     name: 'Léo Renusson', img: 'leo-renusson-portrait.webp', dishes: [
-                        { name: 'César en Voyage', img: 'images/dishes/2023/3/leo-victor.png' },
+                        { name: 'César en Voyage', img: 'images/dishes/2023/3/leo-victor.png', heart: false },
                     ]
                 },
             ]
@@ -93,7 +93,7 @@ export const data: Show =
             chefs: [
                 {
                     name: 'Danny Khezzar', img: 'danny-khezzar-portrait.webp', dishes: [
-                        { name: 'Quenelle de Butternut avec sa Surprise', img: 'images/dishes/2023/3/danny.png' },
+                        { name: 'Quenelle de Butternut avec sa Surprise', img: 'images/dishes/2023/3/danny.png', heart: false },
                     ]
                 },
             ]
@@ -110,8 +110,8 @@ export const data: Show =
                 },
                 {
                     name: 'Gaston Savina', img: 'gaston-savina-portrait.webp', dishes: [
-                        { name: 'Le Neo-Kebab', img: 'images/dishes/2023/3/gaston-1.png' },
-                        { name: 'Pithiviers à la Pistache', img: 'images/dishes/2023/3/gaston-2.png' },
+                        { name: 'Le Neo-Kebab', img: 'images/dishes/2023/3/gaston-1.png', heart: false },
+                        { name: 'Pithiviers à la Pistache', img: 'images/dishes/2023/3/gaston-2.png', heart: false },
                     ]
                 },
             ]

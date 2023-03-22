@@ -1,23 +1,23 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "gh-pages-deploy": "gh-pages --dotfiles --dist dist"
-  },
-  "devDependencies": {
-    "@nuxtjs/plausible": "^0.2.0",
-    "autoprefixer": "^10.4.13",
-    "gh-pages": "^5.0.0",
-    "nuxt": "3.2.3",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
-  },
-  "dependencies": {
-    "@headlessui/vue": "^1.7.12",
-    "@heroicons/vue": "^2.0.16"
-  }
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "gh-pages-deploy": "gh-pages --dotfiles --dist dist"
+    },
+    "devDependencies": {
+        "@nuxtjs/plausible": "^0.2.0",
+        "autoprefixer": "^10.4.13",
+        "gh-pages": "^5.0.0",
+        "nuxt": "3.2.3",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^3.2.7"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.7.12",
+        "@heroicons/vue": "^2.0.16"
+    }
 }
