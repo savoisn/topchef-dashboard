@@ -7,7 +7,7 @@
 </template>
 
 <script>
-//console.log(ref_topchef().getDishesByCandidats(2023))
+console.log(ref_topchef().getDishesByCandidats(2023))
 //console.log(ref_topchef().getDishesByCandidats(2023))
 //console.log(ref_topchef().getDishesByCandidats(2023))
 //console.log(ref_topchef().getDishesByCandidats(2023))
