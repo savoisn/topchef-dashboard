@@ -101,7 +101,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 const counter = useState('show_counter', () => 1)
-const year = useState('year', () => 2023)
+const year = useState('year', () => 2024)
 
 const user = {
   name: 'Tom Cook',
@@ -110,8 +110,8 @@ const user = {
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
 }
 const navigation = [
-  { name: 'Statut', href: '/', current: true },
-  { name: 'Candidats', href: 'chefs', current: true },
+  { name: 'Statut', href: '/', current: false },
+  { name: 'Candidats', href: 'chefs', current: false },
   { name: 'Brigades', href: 'brigades', current: false },
   { name: 'Plats', href: 'dishes', current: false },
 ]

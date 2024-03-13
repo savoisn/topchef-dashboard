@@ -1,7 +1,8 @@
+import { shows as shows2024 } from './ref-2024/2024.js';
 import { shows as shows2023 } from './ref-2023/2023.js';
 import { get2022 as shows2022 } from './ref-2022/2022.js';
 import { get2021 as shows2021 } from './ref-2021/2021.js';
-export type Year = 2023 | 2022 | 2021 | 2020;
+export type Year = 2024 | 2023 | 2022 | 2021 | 2020;
 export type Brigades = Brigade[];
 export type Brigade = {
     name: String,
@@ -22,7 +23,7 @@ export type Dishes = {
     img: String,
     chef?: Chef[],
     show?: number,
-    year?: number, 
+    year?: number,
     heart: boolean
 }
 
@@ -41,6 +42,7 @@ export type Ref = Shows[]
 export function ref_topchef(): Object {
 
     const allRef: Ref = [
+        shows2024(),
         shows2023(),
         shows2022(),
         shows2021(),
@@ -79,7 +81,7 @@ export function ref_topchef(): Object {
         const brigades = allRef
             .find((shows: Shows) => { return shows.year == year })
             .shows
-            .find((show: Show) => { return show.id == 2 })
+            .find((show: Show) => { return show.id == 1 })
             .data;
 
         const chefs = brigades.reduce(
@@ -125,20 +127,20 @@ export function ref_topchef(): Object {
         }, [] as Dishes[])
 
         const ret_dishes_grouped = ret_dishes.reduce((acc_Dishes: Dishes[], dish: Dishes) => {
-            const ret_dish = {...dish}
+            const ret_dish = { ...dish }
 
-            const found_dish = acc_Dishes.find((d: Dishes) =>{
-                return d.name===dish.name
+            const found_dish = acc_Dishes.find((d: Dishes) => {
+                return d.name === dish.name
             })
 
-            if(found_dish){
+            if (found_dish) {
                 found_dish.chef = found_dish.chef?.concat(dish.chef)
                 return acc_Dishes
             }
 
             return [...acc_Dishes, ret_dish]
         }, [] as Dishes[])
-        
+
         return ret_dishes_grouped;
     }
 

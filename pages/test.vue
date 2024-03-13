@@ -15,6 +15,9 @@
     <div class="grid content-center gap-x-8 gap-y-4 grid-cols-2 border-2 " :class="['bg-gray-200','border-black']">
     ici
     </div>
+    <div class="grid content-center gap-x-8 gap-y-4 grid-cols-2 border-2 " :class="['bg-gray-500','border-black']">
+    ici
+    </div>
 </template>
 
 <script>
