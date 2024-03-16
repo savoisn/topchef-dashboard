@@ -80,35 +80,14 @@ export const data: Show = {
             border: 'white',
             background: 'bg-transparent',
             chefs: [
-
-
-
-                {
-                    name: 'Ines Trontin', img: 'candidats/2024/ines-trontin.jpg',
-                    dishes: []
-                },
-
-
-
-
-
-                {
-                    name: 'Pierre Pascal Clement', img: 'candidats/2024/pierre-pascal-clement.jpg',
-                    dishes: []
-                },
-
-
                 {
                     name: 'Pol Henri Dieu', img: 'candidats/2024/pol-henri-dieu.jpg',
                     dishes: []
                 },
-
-
                 {
-                    name: 'Thibault Marchand', img: 'candidats/2024/thibault-marchand.jpg',
+                    name: 'Pierre Pascal Clement', img: 'candidats/2024/pierre-pascal-clement.jpg',
                     dishes: []
                 },
-
             ]
         },
         {
@@ -116,7 +95,16 @@ export const data: Show = {
             leader: '',
             background: 'bg-red-200',
             border: 'border-black',
-            chefs: []
+            chefs: [
+                {
+                    name: 'Ines Trontin', img: 'candidats/2024/ines-trontin.jpg',
+                    dishes: []
+                },
+                {
+                    name: 'Thibault Marchand', img: 'candidats/2024/thibault-marchand.jpg',
+                    dishes: []
+                },
+            ]
         },
     ]
 };
