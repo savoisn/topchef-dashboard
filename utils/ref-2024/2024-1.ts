@@ -32,6 +32,11 @@ export const data: Show = {
                     name: 'Bryan Debouche', img: 'candidats/2024/bryan-debouche.jpg',
                     dishes: []
                 },
+                {
+                    name: 'Anicee Lacrouts', img: 'candidats/2024/anicee-lacrouts.jpg',
+                    dishes: []
+                },
+
             ]
         },
         {
@@ -75,11 +80,6 @@ export const data: Show = {
             border: 'white',
             background: 'bg-transparent',
             chefs: [
-                {
-                    name: 'Anicee Lacrouts', img: 'candidats/2024/anicee-lacrouts.jpg',
-                    dishes: []
-                },
-
 
 
 
