@@ -28,6 +28,10 @@ export const data: Show = {
                     name: 'Marie Pacotte', img: 'candidats/2024/marie-pacotte.jpg',
                     dishes: []
                 },
+                {
+                    name: 'Bryan Debouche', img: 'candidats/2024/bryan-debouche.jpg',
+                    dishes: []
+                },
             ]
         },
         {
@@ -54,6 +58,15 @@ export const data: Show = {
                     name: 'Pavel Hug', img: 'candidats/2024/pavel-hug.jpg',
                     dishes: []
                 },
+
+                {
+                    name: 'Quentin Maufrais', img: 'candidats/2024/quentin-maufrais.jpg',
+                    dishes: []
+                },
+                {
+                    name: 'Arnaud Munster', img: 'candidats/2024/arnaud-munster.jpg',
+                    dishes: []
+                },
             ]
         },
         {
@@ -67,15 +80,7 @@ export const data: Show = {
                     dishes: []
                 },
 
-                {
-                    name: 'Arnaud Munster', img: 'candidats/2024/arnaud-munster.jpg',
-                    dishes: []
-                },
 
-                {
-                    name: 'Bryan Debouche', img: 'candidats/2024/bryan-debouche.jpg',
-                    dishes: []
-                },
 
 
                 {
@@ -95,10 +100,6 @@ export const data: Show = {
 
                 {
                     name: 'Pol Henri Dieu', img: 'candidats/2024/pol-henri-dieu.jpg',
-                    dishes: []
-                },
-                {
-                    name: 'Quentin Maufrais', img: 'candidats/2024/quentin-maufrais.jpg',
                     dishes: []
                 },
 
