@@ -9,14 +9,36 @@ export const data: Show = {
             leader: 'Philippe Etchebest, Glenn Viel, Paul Pairet',
             border: 'border-gray-700',
             background: 'bg-gray-200',
-            chefs: []
+            chefs: [
+
+                {
+                    name: 'Pierre Reure', img: 'candidats/2024/pierre-reure.jpg',
+                    dishes: []
+                },
+
+                {
+                    name: 'Lise Deveix', img: 'candidats/2024/lise-deveix.jpg',
+                    dishes: []
+                },
+            ]
         },
         {
             name: 'Orange',
             leader: 'Hélène Darroze, Dominique Crenn, Stéphanie Le Quellec',
             border: 'border-orange-700',
             background: 'bg-orange-200',
-            chefs: []
+            chefs: [
+
+
+                {
+                    name: 'Jorick Dorignac', img: 'candidats/2024/jorick-dorignac.jpg',
+                    dishes: []
+                },
+                {
+                    name: 'Shirley Duthilleux', img: 'candidats/2024/shirley-duthilleux.jpg',
+                    dishes: []
+                },
+            ]
         },
         {
             name: 'Solitaire',
@@ -28,12 +50,12 @@ export const data: Show = {
                     name: 'Anicee Lacrouts', img: 'candidats/2024/anicee-lacrouts.jpg',
                     dishes: []
                 },
-    
+
                 {
                     name: 'Arnaud Munster', img: 'candidats/2024/arnaud-munster.jpg',
                     dishes: []
                 },
-    
+
                 {
                     name: 'Bryan Debouche', img: 'candidats/2024/bryan-debouche.jpg',
                     dishes: []
@@ -49,21 +71,13 @@ export const data: Show = {
                     dishes: []
                 },
 
-                {
-                    name: 'Jorick Dorignac', img: 'candidats/2024/jorick-dorignac.jpg',
-                    dishes: []
-                },
 
-                {
-                    name: 'Lise Deveix', img: 'candidats/2024/lise-deveix.jpg',
-                    dishes: []
-                },
 
                 {
                     name: 'Marie Pacotte', img: 'candidats/2024/marie-pacotte.jpg',
                     dishes: []
                 },
-              
+
                 {
                     name: 'Pavel Hug', img: 'candidats/2024/pavel-hug.jpg',
                     dishes: []
@@ -74,10 +88,6 @@ export const data: Show = {
                     dishes: []
                 },
 
-                {
-                    name: 'Pierre Reure', img: 'candidats/2024/pierre-reure.jpg',
-                    dishes: []
-                },
 
                 {
                     name: 'Pol Henri Dieu', img: 'candidats/2024/pol-henri-dieu.jpg',
@@ -88,10 +98,6 @@ export const data: Show = {
                     dishes: []
                 },
 
-                {
-                    name: 'Shirley Duthilleux', img: 'candidats/2024/shirley-duthilleux.jpg',
-                    dishes: []
-                },
 
                 {
                     name: 'Thibault Marchand', img: 'candidats/2024/thibault-marchand.jpg',
