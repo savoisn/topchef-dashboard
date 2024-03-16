@@ -20,6 +20,14 @@ export const data: Show = {
                     name: 'Lise Deveix', img: 'candidats/2024/lise-deveix.jpg',
                     dishes: []
                 },
+                {
+                    name: 'Clotaire Poirier', img: 'candidats/2024/clotaire-poirier.jpg',
+                    dishes: []
+                },
+                {
+                    name: 'Marie Pacotte', img: 'candidats/2024/marie-pacotte.jpg',
+                    dishes: []
+                },
             ]
         },
         {
@@ -36,6 +44,14 @@ export const data: Show = {
                 },
                 {
                     name: 'Shirley Duthilleux', img: 'candidats/2024/shirley-duthilleux.jpg',
+                    dishes: []
+                },
+                {
+                    name: 'Valentin Raffali', img: 'candidats/2024/valentin-raffali.jpg',
+                    dishes: []
+                },
+                {
+                    name: 'Pavel Hug', img: 'candidats/2024/pavel-hug.jpg',
                     dishes: []
                 },
             ]
@@ -61,10 +77,6 @@ export const data: Show = {
                     dishes: []
                 },
 
-                {
-                    name: 'Clotaire Poirier', img: 'candidats/2024/clotaire-poirier.jpg',
-                    dishes: []
-                },
 
                 {
                     name: 'Ines Trontin', img: 'candidats/2024/ines-trontin.jpg',
@@ -73,15 +85,7 @@ export const data: Show = {
 
 
 
-                {
-                    name: 'Marie Pacotte', img: 'candidats/2024/marie-pacotte.jpg',
-                    dishes: []
-                },
 
-                {
-                    name: 'Pavel Hug', img: 'candidats/2024/pavel-hug.jpg',
-                    dishes: []
-                },
 
                 {
                     name: 'Pierre Pascal Clement', img: 'candidats/2024/pierre-pascal-clement.jpg',
@@ -104,10 +108,6 @@ export const data: Show = {
                     dishes: []
                 },
 
-                {
-                    name: 'Valentin Raffali', img: 'candidats/2024/valentin-raffali.jpg',
-                    dishes: []
-                },
             ]
         },
         {
