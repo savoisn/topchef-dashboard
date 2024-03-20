@@ -100,7 +100,7 @@
 
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
-const counter = useState('show_counter', () => 1)
+const counter = useState('show_counter', () => 2)
 const year = useState('year', () => 2024)
 
 const user = {

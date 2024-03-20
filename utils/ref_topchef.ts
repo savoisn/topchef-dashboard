@@ -81,7 +81,7 @@ export function ref_topchef(): Object {
         const brigades = allRef
             .find((shows: Shows) => { return shows.year == year })
             .shows
-            .find((show: Show) => { return show.id == 1 })
+            .find((show: Show) => { return show.id == 2 })
             .data;
 
         const chefs = brigades.reduce(
