@@ -14,6 +14,7 @@ export const data: Show = {
                 {
                     name: 'Pierre Reure', img: 'candidats/2024/pierre-reure.jpg',
                     dishes: [
+                        { name: '"Boudin Blanc de Volaile, Cochon et Jus de Poitrine"', img: 'pierre-1.png', show: 2, year: 2024, heart: false },
                     ]
                 },
 
@@ -35,11 +36,14 @@ export const data: Show = {
                 {
                     name: 'Bryan Debouche', img: 'candidats/2024/bryan-debouche.jpg',
                     dishes: [
+                        { name: '"Lièvre à la Royale"', img: 'bryan-1.png', show: 2, year: 2024, heart: false },
                     ]
                 },
                 {
                     name: 'Anicee Lacrouts', img: 'candidats/2024/anicee-lacrouts.jpg',
-                    dishes: []
+                    dishes: [
+                        { name: '"Tournedos Rossini"', img: 'anicee-1.png', show: 2, year: 2024, heart: false },
+                    ]
                 },
 
             ]
@@ -55,16 +59,21 @@ export const data: Show = {
                 {
                     name: 'Jorick Dorignac', img: 'candidats/2024/jorick-dorignac.jpg',
                     dishes: [
+                        { name: '"Steak au Poivre"', img: 'jorick-1.png', show: 2, year: 2024, heart: false },
+                        { name: 'Comté 3 affinages, entre Fromage et Dessert', img: 'jorick-2.png', show: 2, year: 2024, heart: false },
                     ]
                 },
                 {
                     name: 'Shirley Duthilleux', img: 'candidats/2024/shirley-duthilleux.jpg',
                     dishes: [
+                        { name: '"Bourguignon en Mille-Feuille"', img: 'shirley-1.png', show: 2, year: 2024, heart: false },
                     ]
                 },
                 {
                     name: 'Valentin Raffali', img: 'candidats/2024/valentin-raffali.jpg',
                     dishes: [
+                        { name: '"Veg Me Up"', img: 'valentin-1.png', show: 2, year: 2024, heart: false },
+                        { name: 'Avec les Doigts', img: 'valentin-2.png', show: 2, year: 2024, heart: false },
                     ]
                 },
                 {
@@ -100,18 +109,21 @@ export const data: Show = {
         },
         {
             name: 'Caché',
-            leader: '',
+            leader: 'Pierre Gagnaire',
             background: 'bg-violet-200',
             border: 'border-black',
             chefs: [
                 {
                     name: 'Pierre Pascal Clement', img: 'candidats/2024/pierre-pascal-clement.jpg',
                     dishes: [
+                        { name: 'Entremets aux Saveurs de Plateau de Fromage', img: 'pierre-pascal-1.png', show: 2, year: 2024, heart: false },
+                        { name: 'Raviole Végétale de Bolets au Parfum de Thé Fumé et Jasmin', img: 'pierre-pascal-2.png', show: 2, year: 2024, heart: false },
                     ]
                 },
                 {
                     name: 'Thibault Marchand', img: 'candidats/2024/thibault-marchand.jpg',
                     dishes: [
+                        { name: 'La Raviole Terre-Mer et Son Jeu de de* Couleurs', img: 'thibault-1.png', show: 2, year: 2024, heart: false },
                     ]
                 },
             ]
@@ -125,6 +137,7 @@ export const data: Show = {
                 {
                     name: 'Ines Trontin', img: 'candidats/2024/ines-trontin.jpg',
                     dishes: [
+                        { name: 'Chair de Tourteau, Jasmin et Bergamote', img: 'ines-1.png', show: 2, year: 2024, heart: false },
                     ]
                 },
             ]
