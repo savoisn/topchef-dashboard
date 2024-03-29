@@ -111,9 +111,9 @@ const user = {
 }
 const navigation = [
   { name: 'Statut', href: '/', current: false },
-  { name: 'Candidats', href: 'chefs', current: false },
-  { name: 'Brigades', href: 'brigades', current: false },
-  { name: 'Plats', href: 'dishes', current: false },
+  { name: 'Candidats', href: '/chefs', current: false },
+  { name: 'Brigades', href: '/brigades', current: false },
+  { name: 'Plats', href: '/dishes', current: false },
 ]
 const userNavigation = [
 //  { name: 'Your Profile', href: '#' },

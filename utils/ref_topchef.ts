@@ -70,11 +70,11 @@ export function ref_topchef(): Object {
             return chef.id == chef_id;
         })
 
-        const found_chef = found_chefs?.reduce((acc, chef)=>{
+        const found_chef = found_chefs?.reduce((acc, chef) => {
             console.log(acc)
-            if(acc.dishes){
-               acc.dishes = acc.dishes.concat(chef.dishes)
-               return acc
+            if (acc.dishes) {
+                acc.dishes = acc.dishes.concat(chef.dishes)
+                return acc
             }
             return chef
         }, {} as Chef)
