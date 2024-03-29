@@ -22,18 +22,21 @@ export const data: Show = {
                     id: 'lise_deveix',
                     name: 'Lise Deveix', img: 'candidats/2024/lise-deveix.jpg',
                     dishes: [
+                        { name: 'Poireau, Sauce Emulsionné, Chaud-Froid', img: 'lise-1.png', show: 3, year: 2024, heart: false },
                     ]
                 },
                 {
                     id: 'clotaire_poirier',
                     name: 'Clotaire Poirier', img: 'candidats/2024/clotaire-poirier.jpg',
                     dishes: [
+                        { name: 'Avocat-Crevettes, Sauce Cocktail-Corail', img: 'clotaire-1.png', show: 3, year: 2024, heart: false },
                     ]
                 },
                 {
                     id: 'marie_pacotte',
                     name: 'Marie Pacotte', img: 'candidats/2024/marie-pacotte.jpg',
                     dishes: [
+                        { name: 'Ainsi Font Les Oignons', img: 'marie-1.png', show: 3, year: 2024, heart: false },
                     ]
                 },
                 {
@@ -81,6 +84,7 @@ export const data: Show = {
                     id: 'pavel_hug',
                     name: 'Pavel Hug', img: 'candidats/2024/pavel-hug.jpg',
                     dishes: [
+                        { name: 'Sérum, Oignon d\'Antan et Bouillon', img: 'pavel-1.png', show: 3, year: 2024, heart: false },
                     ]
                 },
 
@@ -88,12 +92,15 @@ export const data: Show = {
                     id: 'quentin_maufrais',
                     name: 'Quentin Maufrais', img: 'candidats/2024/quentin-maufrais.jpg',
                     dishes: [
+                        { name: 'Poireau Très Vinaigrette', img: 'quentin-1.png', show: 3, year: 2024, heart: false },
                     ]
                 },
                 {
                     id: 'arnaud_munster',
                     name: 'Arnaud Munster', img: 'candidats/2024/arnaud-munster.jpg',
                     dishes: [
+                        { name: 'Avocat-Crevettes à l\'Ostendaise', img: 'arnaud-1.png', show: 3, year: 2024, heart: false },
+                        { name: 'Crème Brulée, Spaghettis de Butternut et Agrumes', img: 'arnaud-2.png', show: 3, year: 2024, heart: false },
                     ]
                 },
             ]
@@ -108,12 +115,14 @@ export const data: Show = {
                     id: 'pierre_pascal_clement',
                     name: 'Pierre Pascal Clement', img: 'candidats/2024/pierre-pascal-clement.jpg',
                     dishes: [
+                        { name: 'Strudel de Turbot, Compotée de Chou Vert, Accompagné d\'un dashi de Betterave', img: 'pierre-pascal-1.png', show: 3, year: 2024, heart: false },
                     ]
                 },
                 {
                     id: 'thibault_marchand',
                     name: 'Thibault Marchand', img: 'candidats/2024/thibault-marchand.jpg',
                     dishes: [
+                        { name: 'Coeur Onctueux de Lotte Enrobé d\'Algues Nori dans une Pate Feuilletée Croustillante', img: 'thibault-1.png', show: 3, year: 2024, heart: false },
                     ]
                 },
             ]
@@ -134,6 +143,8 @@ export const data: Show = {
                     id: 'pol_henri_dieu',
                     name: 'Pol Henri Dieu', img: 'candidats/2024/pol-henri-dieu.jpg',
                     dishes: [
+                        { name: 'Lasagne de Crème Brulée', img: 'pol-henri-1.png', show: 3, year: 2024, heart: false },
+                        { name: 'Tartare de Boeuf Facon Wellington', img: 'pol-henri-2.png', show: 3, year: 2024, heart: false },
                     ]
                 },
             ]
